@@ -1,2 +1,2 @@
-from stack import Stack
+from ..Stack.stack import Stack
 

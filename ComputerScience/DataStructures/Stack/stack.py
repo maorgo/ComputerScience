@@ -27,3 +27,18 @@ class Stack:
 
     def is_empty(self):
         return len(self.stack) == 0
+
+    def stack_size(self):
+        counter = 0
+        tmpStack = Stack()
+
+        while not self.is_empty():
+            tmp = self.pop()
+            tmpStack.push(tmp)
+            counter += 1
+
+        while not tmpStack.is_empty():
+            tmp = tmpStack.pop()
+            self.push(tmp)
+
+        return counter
