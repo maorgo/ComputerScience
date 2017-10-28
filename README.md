@@ -5,6 +5,6 @@ Any suggestions / comments will be highly appreciated.
 Maor.
 
 - TODOs:
- - [ ] Document each class
- - [ ] Migrate tests to a proper unittest platform
- \t- [ ] Finish implementing Trees, BST, B trees, AVL trees, hashtables.
+  - [ ] Document each class
+  - [ ] Migrate tests to a proper unittest platform
+  - [ ] Finish implementing Trees, BST, B trees, AVL trees, hashtables.
