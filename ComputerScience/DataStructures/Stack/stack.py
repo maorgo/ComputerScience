@@ -30,15 +30,15 @@ class Stack:
 
     def stack_size(self):
         counter = 0
-        tmpStack = Stack()
+        stack_tmp = Stack()
 
         while not self.is_empty():
             tmp = self.pop()
-            tmpStack.push(tmp)
+            stack_tmp.push(tmp)
             counter += 1
 
-        while not tmpStack.is_empty():
-            tmp = tmpStack.pop()
+        while not stack_tmp.is_empty():
+            tmp = stack_tmp.pop()
             self.push(tmp)
 
         return counter

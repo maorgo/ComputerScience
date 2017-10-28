@@ -23,6 +23,7 @@ def test_doubly_linked_list():
     doubly_linked_list.print_list()
     print('\tDoublyLinkedList.print_reverse: ', end='')
     l3.print_reverse()
+    print('\n\t{}'.format(doubly_linked_list.__str__()))
 
 if __name__ == '__main__':
     test_doubly_linked_list()
